@@ -47,6 +47,10 @@ router.get('/flows', validate(flowsSchema), async (req: Request, res: Response):
       res.json({
         success: true,
         data: {
+          token: 'UNKNOWN',
+          contractAddress: contract,
+          token: 'UNKNOWN',
+          contractAddress: contract,
           contract,
           chain,
           timeframe,
