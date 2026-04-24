@@ -51,7 +51,6 @@ router.get('/flows', validate(flowsSchema), async (req: Request, res: Response):
           contractAddress: contract,
           token: 'UNKNOWN',
           contractAddress: contract,
-          contract,
           chain,
           timeframe,
           message: 'No transfers found in this timeframe',
